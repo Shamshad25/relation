@@ -3,13 +3,16 @@
   box-sizing: border-box;
   justify-content: center;
 }
+
+button {
+  background-color: #fff;
+}
 .container {
   width: 100;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(192, 247, 247);
 }
 
 .subContainer {
@@ -18,6 +21,7 @@
   margin-top: 10px;
   box-shadow: 5px;
   margin-bottom: 10px;
+  border: 1px solid black;
   background-color: #fff;
 }
 
@@ -26,5 +30,4 @@
   align-items: center;
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: #fff;
 }

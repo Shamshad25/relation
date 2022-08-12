@@ -266,7 +266,9 @@ const App = () => {
 
       <div
         className="section"
-        style={{ border: foundRelation ? "1px solid black" : null }}
+        style={{
+          border: foundRelation ? "1px solid black" : null,
+        }}
       >
         {foundRelation ? (
           <div>
